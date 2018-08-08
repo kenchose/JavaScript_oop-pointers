@@ -1,0 +1,32 @@
+var tigger = { character: "Tigger" };
+tigger = pooh.south;
+
+var pooh = { character: "Winnie the Pooh" };
+pooh = tigger.north;
+
+var piglet = { character: "Piglet"};
+piglet = tigger.north.west;
+
+var bees = { character: "Bees"};
+bees = tigger.north.east;
+
+var owl = {character: "Owl"}
+owl = tigger.north.west.north;
+
+var chrisRobin = {character: "Christer Robin"};
+piglet.north.east = kanga.south;
+
+var rabbit = {character: "Rabbit"};
+rabbit = tigger.north.north.east;
+
+var gopher = {character: "Gopher"};
+gopher = rabbit.east;
+
+var kanga = {character: "Kanga"};
+kanga = pooh.north.north;
+
+var eeyone = {character: "Eeyone"};
+eeyone = rabbit.west.north.northp
+
+var heffalumps = {character: "Heffalumps"};
+heffalumps = eeyone.east;
